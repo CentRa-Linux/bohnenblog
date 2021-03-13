@@ -20,7 +20,7 @@ const Header = ({ titlePre = '' }) => {
   return (
     <header className={styles.header}>
       <Head>
-        <title>{titlePre ? `${titlePre} |` : ''} My Notion Blog</title>
+        <title>{titlePre ? `${titlePre} |` : ''} BohnenLinux</title>
         <meta
           name="description"
           content="Blazing fast 32Bit Debian-based OS"
@@ -28,7 +28,7 @@ const Header = ({ titlePre = '' }) => {
         <meta name="og:title" content="BohnenLinux" />
         <meta property="og:image" content={ogImageUrl} />
         <meta name="twitter:site" content="@cent_ra" />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content={ogImageUrl} />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
       <ul>
