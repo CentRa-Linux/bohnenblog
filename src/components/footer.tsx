@@ -12,6 +12,7 @@ export default function Footer() {
             width={132}
             alt="deploy to Vercel button"
           />
+        </ExtLink>
       </footer>
     </>
   )
