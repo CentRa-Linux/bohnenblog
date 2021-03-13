@@ -9,36 +9,20 @@ import Scroll from './svgs/scroll'
 
 const features = [
   {
-    text: 'Blazing fast',
+    text: '超高速',
     icon: Lightning,
   },
   {
-    text: 'JAMstack based',
+    text: '安定性',
     icon: Jamstack,
   },
   {
-    text: 'Always available',
+    text: 'ドライバ互換性',
     icon: Wifi,
   },
   {
-    text: 'Customizable',
+    text: '32Bit向けにチューン',
     icon: Edit,
-  },
-  {
-    text: 'Incremental SSG',
-    icon: Plus,
-  },
-  {
-    text: 'MIT Licensed',
-    icon: Scroll,
-  },
-  {
-    text: 'Edit via Notion',
-    icon: Notion,
-  },
-  {
-    text: 'Great scores',
-    icon: Lighthouse,
   },
 ]
 
