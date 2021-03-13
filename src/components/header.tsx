@@ -12,7 +12,7 @@ const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'OSDN', link: 'https://osdn.net/projects/bohnenlinux/' },
 ]
 
-const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
+const ogImageUrl = 'https://albumizr.com/ia/6f2f26c2775c485b49bd0718ebd65b2d.jpg'
 
 const Header = ({ titlePre = '' }) => {
   const { pathname } = useRouter()
@@ -23,11 +23,11 @@ const Header = ({ titlePre = '' }) => {
         <title>{titlePre ? `${titlePre} |` : ''} My Notion Blog</title>
         <meta
           name="description"
-          content="An example Next.js site using Notion for the blog"
+          content="Blazing fast 32Bit Debian-based OS"
         />
-        <meta name="og:title" content="My Notion Blog" />
+        <meta name="og:title" content="BohnenLinux" />
         <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@_ijjk" />
+        <meta name="twitter:site" content="@cent_ra" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content={ogImageUrl} />
       </Head>
