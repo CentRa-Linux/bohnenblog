@@ -13,7 +13,7 @@ export default function Index() {
         <h2>
           「軽くて早くて即使える」32BitDebianカスタムイメージ
         </h2>
-        <iframe src="https://albumizr.com/a/l9dh" scrolling="no" frameBorder="0" allowfullscreen width="700" height="400"></iframe>
+        <iframe src="https://albumizr.com/a/l9dh" scrolling="no" frameBorder="0" allowFullScreen width="700" height="400"></iframe>
       </div>
     </>
   )
