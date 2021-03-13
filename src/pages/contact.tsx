@@ -33,7 +33,7 @@ export default function Contact() {
       <Header titlePre="Contact" />
       <div className={sharedStyles.layout}>
         <div className={contactStyles.avatar}>
-          <img src="/avatar.png" alt="avatar" height={60} />
+          <img src="https://pbs.twimg.com/profile_images/1322529998046072834/4sCZHSzB_400x400.jpg" alt="avatar" height={60} />
         </div>
 
         <h1 style={{ marginTop: 0 }}>Contact</h1>
