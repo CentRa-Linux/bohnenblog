@@ -362,6 +362,11 @@ footer {
   text-align: center;
 }
 
+.wrap {
+  display: flex;
+  justify-content: center;
+}
+
 footer img {
   display: block;
   margin: 0.5rem auto;
